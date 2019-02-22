@@ -38,6 +38,8 @@ public class RabbitProducer implements Producer, ConfirmCallback {
 
         byte[] serialize = objectSerializer.serialize(message);
         rabbitTemplate.convertAndSend(message.getExchange(), message.getRouteKey(), serialize);
+
+//        rabbitTemplate.convertAndSend(message.getExchange(), message.getRouteKey(), message);
     }
 
     @Override

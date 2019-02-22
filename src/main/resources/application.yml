@@ -1,18 +1,18 @@
-#spring:
-#  rabbitmq:
-#    host: 172.18.252.122
-#    port: 5672
-#    username: zhenxin
-#    password: 123456
-#    binding:
-#      max-retry-count: 5
-#      producer:
-#        exchange: topic_test
-#      consumer:
-#        sms:
-#          queue: queue_1
-#          route-key: all, sms.#
-#          exchange: topic_sms
-#        logs:
-#          route-key: error.#, sys.#
-#          exchange: topic_logs
+spring:
+  rabbitmq:
+    host: 172.18.252.122
+    port: 5672
+    username: zhenxin
+    password: 123456
+    binding:
+      default-max-retry-count: 5
+      producer:
+        exchange: topic_test
+      consumer:
+        sms:
+          queue: queue_3
+          route-key: all, sms.#
+          exchange: topic_sms
+        logs:
+          route-key: error.#, sys.#
+          exchange: topic_logs

@@ -19,6 +19,7 @@ public class RabbitConfig {
     public RabbitTemplate rabbitTemplate(CachingConnectionFactory factory) {
         factory.setPublisherConfirms(true);
         RabbitTemplate template = new RabbitTemplate(factory);
+//        template.setMessageConverter(new KryoMessageConvert());
         return template;
     }
 

@@ -59,6 +59,7 @@ public class ConsumerListenerHandler {
             bean = new SimpleMessageListenerContainer();
             bean.setConnectionFactory(connectionFactory);
             bean.setQueueNames(rabbitBind.getQueue());
+//            bean.setMessageConverter(new KryoMessageConvert());
             bean.setAcknowledgeMode(AcknowledgeMode.MANUAL);  // autoAck = false
             Consumer consumer = getConsumer(consumerList, rabbitBind.getHandleName());
             bean.setMessageListener((ChannelAwareMessageListener) (message, channel) -> {
