@@ -1,6 +1,6 @@
 package com.sunflower.rabbit.consume;
 
-import com.sunflower.rabbit.common.annotation.RabbitMqHandler;
+import com.sunflower.rabbit.common.annotation.RabbitMQHandler;
 import com.sunflower.rabbit.common.model.Message;
 import com.sunflower.rabbit.common.serialize.ObjectSerializer;
 import com.sunflower.rabbit.produce.Producer;
@@ -117,7 +117,7 @@ public class ConsumerListenerHandler {
     private Consumer getConsumer(Collection<Consumer> consumers, String name) {
         for (Consumer consumer : consumers) {
             Class<? extends Consumer> cls = consumer.getClass();
-            RabbitMqHandler annotation = cls.getAnnotation(RabbitMqHandler.class);
+            RabbitMQHandler annotation = cls.getAnnotation(RabbitMQHandler.class);
             String value = annotation.value();
             if (name.equals(value)) {
                 return consumer;

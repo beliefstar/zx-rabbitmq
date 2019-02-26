@@ -2,7 +2,7 @@ package com.sunflower.rabbit.consume;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
-import com.sunflower.rabbit.common.annotation.RabbitMqHandler;
+import com.sunflower.rabbit.common.annotation.RabbitMQHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Exchange;
 import org.springframework.amqp.core.Queue;
@@ -151,9 +151,9 @@ public class RabbitConsumeInitialize implements InitializingBean {
         }
         for (Consumer consumer : consumerBeans.values()) {
             Class<? extends Consumer> cls = consumer.getClass();
-            RabbitMqHandler annotation = cls.getAnnotation(RabbitMqHandler.class);
+            RabbitMQHandler annotation = cls.getAnnotation(RabbitMQHandler.class);
             if (annotation == null) {
-                throw new RuntimeException("class: [" + cls.getName() + "] missing annotation: [" + RabbitMqHandler.class.getName() + "]");
+                throw new RuntimeException("class: [" + cls.getName() + "] missing annotation: [" + RabbitMQHandler.class.getName() + "]");
             }
             String value = annotation.value();
             if (key.equals(value)) {
