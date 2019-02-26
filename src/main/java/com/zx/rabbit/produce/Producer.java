@@ -1,7 +1,7 @@
-package com.sunflower.rabbit.produce;
+package com.zx.rabbit.produce;
 
 
-import com.sunflower.rabbit.common.model.Message;
+import com.zx.rabbit.common.model.Message;
 
 /**
  * @author xzhen

@@ -1,7 +1,6 @@
 package demo;
 
-import com.sunflower.rabbit.common.annotation.RabbitMQHandler;
-import com.sunflower.rabbit.consume.Consumer;
+import com.zx.rabbit.consume.Consumer;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 
 /**
@@ -9,7 +8,7 @@ import org.springframework.boot.autoconfigure.security.SecurityProperties;
  * @created 14:20 28/01/2019
  * @description TODO
  */
-@RabbitMQHandler("sms")
+//@RabbitMQHandler("sms")
 public class TestHandler implements Consumer<SecurityProperties.User> {
 
     @Override

@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.produce;
+package com.zx.rabbit.produce;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

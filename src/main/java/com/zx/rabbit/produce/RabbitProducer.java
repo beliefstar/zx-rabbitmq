@@ -1,7 +1,7 @@
-package com.sunflower.rabbit.produce;
+package com.zx.rabbit.produce;
 
-import com.sunflower.rabbit.common.model.Message;
-import com.sunflower.rabbit.common.serialize.ObjectSerializer;
+import com.zx.rabbit.common.model.Message;
+import com.zx.rabbit.common.serialize.ObjectSerializer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.core.RabbitTemplate.ConfirmCallback;

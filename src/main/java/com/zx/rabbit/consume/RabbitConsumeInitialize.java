@@ -1,8 +1,8 @@
-package com.sunflower.rabbit.consume;
+package com.zx.rabbit.consume;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
-import com.sunflower.rabbit.common.annotation.RabbitMQHandler;
+import com.zx.rabbit.common.annotation.RabbitMQHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Exchange;
 import org.springframework.amqp.core.Queue;

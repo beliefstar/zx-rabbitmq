@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.consume;
+package com.zx.rabbit.consume;
 
 import lombok.Data;
 

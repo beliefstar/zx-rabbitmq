@@ -1,6 +1,6 @@
-package com.sunflower.rabbit.common.annotation;
+package com.zx.rabbit.common.annotation;
 
-import com.sunflower.rabbit.common.config.RabbitConfig;
+import com.zx.rabbit.common.config.RabbitConfig;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.*;

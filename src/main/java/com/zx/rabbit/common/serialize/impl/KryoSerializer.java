@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.common.serialize.impl;
+package com.zx.rabbit.common.serialize.impl;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.ByteBufferInput;
@@ -6,7 +6,7 @@ import com.esotericsoftware.kryo.io.ByteBufferOutput;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
 import com.esotericsoftware.kryo.pool.KryoFactory;
-import com.sunflower.rabbit.common.serialize.ObjectSerializer;
+import com.zx.rabbit.common.serialize.ObjectSerializer;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.common.annotation;
+package com.zx.rabbit.common.annotation;
 
 import org.springframework.stereotype.Component;
 

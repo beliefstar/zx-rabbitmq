@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.common.model;
+package com.zx.rabbit.common.model;
 
 import lombok.Data;
 

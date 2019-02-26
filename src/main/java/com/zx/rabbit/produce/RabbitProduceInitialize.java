@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.produce;
+package com.zx.rabbit.produce;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;

@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.messageconvert;
+package com.zx.rabbit.messageconvert;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.ByteBufferInput;

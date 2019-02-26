@@ -1,16 +1,15 @@
 package demo;
 
-import com.sunflower.rabbit.common.model.Message;
-import com.sunflower.rabbit.produce.Producer;
+import com.zx.rabbit.common.model.Message;
+import com.zx.rabbit.produce.Producer;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * @author xzhen
  * @created 14:22 28/01/2019
  * @description TODO
  */
-@Component
+//@Component
 public class TestProducer {
 
     @Autowired

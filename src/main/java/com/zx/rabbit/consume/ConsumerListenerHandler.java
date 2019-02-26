@@ -1,9 +1,9 @@
-package com.sunflower.rabbit.consume;
+package com.zx.rabbit.consume;
 
-import com.sunflower.rabbit.common.annotation.RabbitMQHandler;
-import com.sunflower.rabbit.common.model.Message;
-import com.sunflower.rabbit.common.serialize.ObjectSerializer;
-import com.sunflower.rabbit.produce.Producer;
+import com.zx.rabbit.common.annotation.RabbitMQHandler;
+import com.zx.rabbit.common.model.Message;
+import com.zx.rabbit.common.serialize.ObjectSerializer;
+import com.zx.rabbit.produce.Producer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

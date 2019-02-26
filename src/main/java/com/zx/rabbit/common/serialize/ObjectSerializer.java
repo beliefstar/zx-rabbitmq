@@ -1,4 +1,4 @@
-package com.sunflower.rabbit.common.serialize;
+package com.zx.rabbit.common.serialize;
 
 /**
  * @author xzhen
