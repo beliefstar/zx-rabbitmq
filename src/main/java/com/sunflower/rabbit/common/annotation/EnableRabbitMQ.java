@@ -14,5 +14,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Import(RabbitConfig.class)
-public @interface EnableRabbitMq {
+public @interface EnableRabbitMQ {
 }
